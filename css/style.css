@@ -1,0 +1,91 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    background: #080717;
+    width: 100%;
+    height: 100%;
+}
+#ballGroup{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+#ballGroup .balls{
+    position: absolute;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+#ballGroup .balls:nth-child(1){
+    width: 100px;
+    height: 100px;
+    left: 50px;
+    top: 50px;
+    background: #4286f4;
+}
+#ballGroup .balls:nth-child(2){
+    width: 150px;
+    height: 150px;
+    left: 200px;
+    top: 60px;
+    background: #b942f4;
+}
+#ballGroup .balls:nth-child(3){
+    width: 200px;
+    height: 200px;
+    left: 400px;
+    top: 30px;
+    background: #f442c8;
+}
+#ballGroup .balls:nth-child(4){
+    width: 100px;
+    height: 100px;
+    left: 650px;
+    top: 40px;
+    background: #42d9f4;
+}
+#ballGroup .balls:nth-child(5){
+    width: 168px;
+    height: 168px;
+    left: 60px;
+    top: 250px;
+    background: #42f48c;
+}
+#ballGroup .balls:nth-child(6){
+    width: 132px;
+    height: 132px;
+    left: 300px;
+    top: 252px;
+    background: #d1f442;
+}
+#ballGroup .balls:nth-child(7){
+    width: 187px;
+    height: 187px;
+    left: 600px;
+    top: 200px;
+    background: #f49842;
+}
+#ballGroup .balls:nth-child(8){
+    width: 123px;
+    height: 123px;
+    left: 800px;
+    top: 120px;
+    background: #86d8aa;
+}
+#ballGroup .balls:nth-child(9){
+    width: 186px;
+    height: 186px;
+    left: 450px;
+    top: 380px;
+    background: #d88686;
+}
+#ballGroup .balls:nth-child(10){
+    width: 167px;
+    height: 167px;
+    left: 200px;
+    top: 400px;
+    background: #5264a5;
+}
