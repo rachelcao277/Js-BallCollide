@@ -6,6 +6,8 @@ Import to your project
 
 Tip: Native javascript does not depend on other libraries
 
+Demo: https://rachelcao277.github.io/Js-BallCollide
+
 ```
     <script src="js/ballCollide.js"></script>
 ```
@@ -19,4 +21,6 @@ Tip: Native javascript does not depend on other libraries
          }
      </script>
 ```
+
+
 
